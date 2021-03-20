@@ -4,10 +4,7 @@ console.log()
 
 let subtotal = 0
 let total = 0
-let burguer = 0
-let dogs = 0
-let salchipapas = 0
-let chorizos = 0
+
 let descuento = 0
 let totalPersona = 0
 let propina = 0
@@ -50,21 +47,16 @@ for (let x = 1; x <= numPeople; x++) {
     let cant = prompt("Cantidad: ");
 
     if (plato == 1) {
-        burguer = cant * 10000;
-        totalPersona = burguer
-
+        totalPersona = cant * 10000;     
     }
     else if (plato == 2) {
-        dogs = cant * 8000;
-        totalPersona = dogs
+        totalPersona = cant * 8000;
     }
     else if (plato == 3) {
-        salchipapas = cant * 6000;
-        totalPersona = salchipapas
+        totalPersona = cant * 6000;
     }
     else if (plato == 4) {
-        chorizos = cant * 7000;
-        totalPersona = chorizos
+        totalPersona = cant * 7000;
     }
 
 
