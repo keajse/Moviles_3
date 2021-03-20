@@ -35,29 +35,23 @@ for (let x = 1; x <= numPeople; x++) {
     let cant = prompt("Cantidad: ");
 
     if (plato = "1") {
-        burguer = cant * 10000;
+       totalPersona = cant * 10000;
         
     }
     else if (plato = "2") {
-        dogs = cant * 8000;
+        totalPersona = cant * 8000;
         
     }
     else if (plato = "3") {
-        salchipapas = cant * 6000;
+        totalPersona = cant * 6000;
         
     }
     else if (plato = "4") {
-        chorizos = cant * 7000;
+        totalPersona = cant * 7000;
         
     }
 
-    totalBurguer= totalBurguer+ burguer
-    totalDogs= totalDogs + dogs
-    totalSalchipapas = totalSalchipapas + salchipapas
-    totalChorizos = totalChorizos + chorizos
-
-    totalPersona = totalBurguer + totalDogs + totalSalchipapas + totalChorizos;
-    
+       
     subtotal = subtotal + totalPersona
     
 }
