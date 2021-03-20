@@ -36,27 +36,24 @@ for (let x = 1; x <= numPeople; x++) {
 
     if (plato ==1) {
         burguer = cant * 10000;
+        totalPersona= burguer
         
     }
     else if (plato == 2) {
         dogs = cant * 8000;
-        
+        totalPersona = dogs
     }
     else if (plato == 3) {
         salchipapas = cant * 6000;
-        
+        totalPersona = salchipapas
     }
     else if (plato ==4) {
         chorizos = cant * 7000;
-        
+        totalPersona= chorizos
     }
 
-    totalBurguer= totalBurguer+ burguer
-    totalDogs= totalDogs + dogs
-    totalSalchipapas = totalSalchipapas + salchipapas
-    totalChorizos = totalChorizos + chorizos
-
-    totalPersona = totalBurguer + totalDogs + totalSalchipapas + totalChorizos;
+    
+    console.log(`Total de la persona ${x} es: ${totalPersona}`)
     
     subtotal = subtotal + totalPersona
     
